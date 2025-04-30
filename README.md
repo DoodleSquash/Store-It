@@ -32,7 +32,7 @@
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/store-it.git
+git clone https://github.com/DoodleSquash/store-it.git
 cd store-it
 ```
 
