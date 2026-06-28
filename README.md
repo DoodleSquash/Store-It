@@ -71,6 +71,25 @@ App will be running at http://localhost:3000.
 
 ---
 
+## 🖼️ **Interface Preview**
+
+### Core Storage Experience
+| **Landing & Dashboard** | **OTP Verification** |
+| :---: | :---: |
+| <img src="public/assets/screenshots/home.png" alt="Dashboard" width="400" /> | <img src="public/assets/screenshots/otp.png" alt="OTP Portal" width="400" /> |
+
+### Authentication & Access
+| **Sign In** | **Sign Up** |
+| :---: | :---: |
+| <img src="public/assets/screenshots/Login-Signup.png" alt="Sign In Portal" width="400" /> | <img src="public/assets/screenshots/signup.png" alt="Sign Up Portal" width="400" /> |
+
+### File Actions & Management
+| **Advanced Actions Overview** |
+| :---: |
+| <img src="public/assets/screenshots/functions.png" alt="File Actions Panel" width="600" /> |
+
+---
+
 ## 🛠️ **Contributing**
 
 Contributions are welcome! Feel free to fork the repository, create a new branch, and submit a pull request.
