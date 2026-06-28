@@ -73,10 +73,15 @@ App will be running at http://localhost:3000.
 
 ## 🖼️ **Interface Preview**
 
-### Core Storage & Management
-| **Dashboard Overview** | **File Operations & Details** |
+### Core Storage & Onboarding
+| **Dashboard Overview** | **OTP Verification** |
 | :---: | :---: |
-| <img src="public/assets/screenshots/home.png" alt="Dashboard Overview" width="400" /> | <img src="public/assets/screenshots/functions.png" alt="File Actions Panel" width="400" /> |
+| <img src="public/assets/screenshots/home.png" alt="Dashboard" width="400" /> | <img src="public/assets/screenshots/otp.png" alt="OTP Portal" width="400" /> |
+
+### Authentication & Operations
+| **Sign Up** | **File Operations** |
+| :---: | :---: |
+| <img src="public/assets/screenshots/signup.png" alt="Sign Up Portal" width="400" /> | <img src="public/assets/screenshots/functions.png" alt="File Actions Panel" width="400" /> |
 
 ---
 
