@@ -59,9 +59,26 @@ const AuthForm = ({ type }: { type: FormType }) => {
             })
           : await signInUser({ email: values.email });
 
-      setAccountId(user.accountId);
+      if (user && user.error) {
+        setErrorMessage(user.error);
+        return;
+      }
+
+      if (user && user.accountId) {
+        setAccountId(user.accountId);
+      } else {
+        setErrorMessage(
+          type === "sign-up"
+            ? "Failed to create account. Please try again."
+            : "User not found or failed to sign in."
+        );
+      }
     } catch {
-      setErrorMessage("Failed to create account. Please try again.");
+      setErrorMessage(
+        type === "sign-up"
+          ? "Failed to create account. Please try again."
+          : "Failed to sign in. Please try again."
+      );
     } finally {
       setIsLoading(false);
     }

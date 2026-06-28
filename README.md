@@ -23,9 +23,8 @@ Store It is a modern cloud storage platform designed to provide a secure and sea
 
 ## 🛠️ **Tech Stack**
 
-- **Frontend:** Next.js 15 (App Router), Tailwind CSS
+- **Frontend:** Next.js 15, Tailwind CSS
 - **Backend:** Appwrite (Database, Storage Buckets, Auth)
-- **Forms & Validation:** React Hook Form, Zod
 - **Type Safety:** TypeScript
 
 ---
